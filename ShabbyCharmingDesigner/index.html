@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WUMR – DJ VYBZ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    hgroup strong {
+      color: #fff;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+
+    .logo {
+      max-height: 80px;
+    }
+
+    .listen-button {
+      background-color: #e63946;
+      color: white;
+    }
+
+    footer a {
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body> <!-- Navigation -->
+  <nav class="container-fluid">
+    <ul>
+      <li> <strong> <img src="https://i.imgur.com/a11hCbX.jpeg" alt="WUMR Logo" class="logo" /> </strong> </li>
+    </ul>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shows</a></li>
+      <li><a href="#" role="button">Contact</a></li>
+    </ul>
+  </nav> <!-- Main content -->
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>I’M BACK, IT’S VYBZ FROM WUMR</h2>
+          <h3>Your favorite DJ on the airwaves</h3>
+        </hgroup>
+        <p>Old school vibes. New energy. Straight from U Matter 2 Radio — DJ VYBZ is back with the hottest mixes, real
+          talk, and the voice of the people.</p>
+        <figure> <img src= "https://i.imgur.com/lcq99Ds.jpeg" alt="DJ VYBZ at the mic" class="hero-img" />
+          <figcaption><a href="#" target="_blank">Listen Live on WUMR</a></figcaption>
+        </figure>
+        <h3>What to Expect</h3>
+        <p>From hip hop and R&B classics to deep conversation and community spotlight, VYBZ brings the soul back to the
+          soundboard.</p>
+        <h3>Join the Movement</h3>
+        <p>Subscribe to stay in the loop and get notified when VYBZ hits the mic live.</p>
+      </section>
+    </div>
+  </main> <!-- Subscribe -->
+  <section aria-label="Subscribe example">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2>Never Miss a Beat</h2>
+          <h3>Get updates from DJ VYBZ and WUMR</h3>
+        </hgroup>
+        <form class="grid"> <input type="text" id="firstname" name="firstname" placeholder="Your name"
+            aria-label="Your name" required /> <input type="email" id="email" name="email" placeholder="Email address"
+            aria-label="Email address" required /> <button type="submit"
+            onclick="event.preventDefault()">Subscribe</button> </form>
+      </article>
+    </div>
+  </section> <!-- Footer -->
+  <footer class="container"> <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small> </footer>
+</body>
+
+</html>

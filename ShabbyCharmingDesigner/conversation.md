@@ -1,0 +1,1 @@
+User is DJ VYBZ from WUMR. We're exporting the fully working index.html file with embedded Imgur image URLs for logo and DJ photo. The site is styled with Pico.css and will be hosted via GitHub Pages.
